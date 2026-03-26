@@ -1,0 +1,52 @@
+body{
+    background-image:url(https://i.pinimg.com/1200x/6d/cd/14/6dcd140b80b210ac445a0eddfc40784a.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    margin:0;
+}
+#clock-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+#clock{
+    font-family: 'Courier New', Courier,monospace;
+    font-size:6.5rem;
+    font-weight:bold;
+    text-align:center;
+    color:white;
+    backdrop-filter:blur(5px);
+    background-color:hsla(0,0%,100%,0.1);
+    width:100%;
+}
+/* #clock span {
+    font-size:80px;
+    width:110px;
+    position: relative; 
+    display: inline-block;
+    min-width: 140px;
+    text-align: center;
+    color:white;
+}
+#clock span::after {
+    font-size: 16px;
+    position: absolute;
+    bottom: -5px;      
+    left: 50%;         
+    transform: translateX(-50%); 
+    letter-spacing: 2px;
+    font-family: Arial, sans-serif;
+    opacity: 0.8;
+    
+}
+#hrs::after { content: 'HOURS'; }
+#min::after { content: 'MINS'; }
+#sec::after { content: 'SEC'; } */
