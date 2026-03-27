@@ -2,7 +2,9 @@
 
 A sleek, responsive, and modern Digital Clock web application built using Vanilla JavaScript, HTML5, and CSS3. This project features a beautiful glassmorphism UI design with real-time updates.
 
-![Project Screenshot](.\Screenshot 2026-03-27 124320) 
+---
+
+![Project Screenshot](./Screenshot%202026-03-27%20124320.png)
 
 ---
 
